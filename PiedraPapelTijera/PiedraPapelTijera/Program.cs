@@ -1,6 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
-
-while(true)
+﻿while(true)
 {
     Console.WriteLine("Estas listo'");
     Console.WriteLine("Empezamos!!");
@@ -13,6 +11,9 @@ while(true)
     var opcionDeOponente = OpcionOponente();
 
     Console.WriteLine($"Tu oponente eligió {opcionDeOponente}");
+
+    decidirGanador(opcionDeOponente, tuEleccion);
+
 }
 
 string SeleccionDeUsuario()
@@ -37,4 +38,40 @@ char OpcionOponente()
     int randomIndex = random.Next(0, opciones.Length);
 
     return opciones[randomIndex];
+}
+
+void decidirGanador(char opcionDeOponente, char tuEleccion)
+{
+    if (opcionDeOponente == tuEleccion)
+    {
+        Console.WriteLine("Empate!!");
+        return;
+    }
+
+    switch (tuEleccion)
+    {
+        case 'R':
+        case 'r':
+            if (opcionDeOponente == 'P')
+                Console.WriteLine("Papel gana a piedra, Yo gano!!");
+            else if (opcionDeOponente == 'T')
+                Console.WriteLine("Piedra gana a tijeras, Tu ganas!!");
+            break;
+
+        case 'T':
+        case 't':
+            if (opcionDeOponente == 'P')
+                Console.WriteLine("Tijeras gana a papel, Tu ganas!!");
+            else if (opcionDeOponente == 'R')
+                Console.WriteLine("Piedra gana a tijeras, Yo gano!!");
+            break;
+
+        case 'P':
+        case 'p':
+            if (opcionDeOponente == 'T')
+                Console.WriteLine("Tijeras gana a papel, Yo gano!!");
+            else if (opcionDeOponente == 'R')
+                Console.WriteLine("Papel gana a piedra, Tu ganas!!");
+            break;
+    }
 }
