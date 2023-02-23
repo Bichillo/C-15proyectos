@@ -1,0 +1,15 @@
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\bin\Debug\net6.0\Adivina el número.exe
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\bin\Debug\net6.0\Adivina el número.deps.json
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\bin\Debug\net6.0\Adivina el número.runtimeconfig.json
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\bin\Debug\net6.0\Adivina el número.dll
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\bin\Debug\net6.0\Adivina el número.pdb
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.csproj.AssemblyReference.cache
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.AssemblyInfoInputs.cache
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.AssemblyInfo.cs
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.csproj.CoreCompileInputs.cache
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.dll
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\refint\Adivina el número.dll
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.pdb
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\Adivina el número.genruntimeconfig.cache
+C:\Users\ninja\OneDrive\cursos\C# proyectos\Adivina el número\Adivina el número\obj\Debug\net6.0\ref\Adivina el número.dll
