@@ -1,6 +1,6 @@
 ﻿while(true)
 {
-    Console.WriteLine("Estas listo'");
+    Console.WriteLine("Estas listo?");
     Console.WriteLine("Empezamos!!");
 
     var seleccionusuario = SeleccionDeUsuario();
@@ -13,6 +13,15 @@
     Console.WriteLine($"Tu oponente eligió {opcionDeOponente}");
 
     decidirGanador(opcionDeOponente, tuEleccion);
+
+    Console.WriteLine("Quieres jugar otra vez?");
+    Console.WriteLine("Escribe SI para jugar otra vez, si quieres para presiona cualquier tecla");
+
+    var jugarOtra = Console.ReadLine();
+    if (jugarOtra?.ToLower() == "si")
+        continue;
+    else
+        break;
 
 }
 
