@@ -3,8 +3,8 @@
     Console.WriteLine("Estas listo?");
     Console.WriteLine("Empezamos!!");
 
-    var seleccionusuario = SeleccionDeUsuario();
-    var tuEleccion = char.Parse(seleccionusuario);
+    var seleccionUsuario = SeleccionDeUsuario();
+    var tuEleccion = char.Parse(seleccionUsuario);
 
     Console.WriteLine($"Elegiste {tuEleccion}");
 
@@ -15,7 +15,7 @@
     decidirGanador(opcionDeOponente, tuEleccion);
 
     Console.WriteLine("Quieres jugar otra vez?");
-    Console.WriteLine("Escribe SI para jugar otra vez, si quieres para presiona cualquier tecla");
+    Console.WriteLine("Escribe SI para jugar otra vez, si no presiona cualquier tecla");
 
     var jugarOtra = Console.ReadLine();
     if (jugarOtra?.ToLower() == "si")
