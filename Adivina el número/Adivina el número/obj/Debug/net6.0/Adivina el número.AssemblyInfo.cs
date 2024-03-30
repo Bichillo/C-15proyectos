@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Adivina el número")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c02023a96e1a61a928178e4086d1c9a9285d1ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("Adivina el número")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Adivina el número")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
